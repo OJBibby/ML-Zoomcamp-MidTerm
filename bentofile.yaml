@@ -1,0 +1,10 @@
+service: "service.py:svc"
+include:
+    - "*.py"
+python:
+  packages:
+    - "xgboost==1.5.0"
+    - "scikit-learn==1.1.1"
+    - "pydantic"
+docker:
+  python_version: "3.9.13"

@@ -23,6 +23,7 @@ To start the service type
 To containerize type (make sure docker is running)
 
 	bentoml build
+
 	bentoml containerize medical_cost_regressor:latest
 
 To then run through docker type

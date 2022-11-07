@@ -3,7 +3,8 @@ dataset from: https://www.kaggle.com/datasets/mirichoi0218/insurance
 It is important for insurers to accurately predict the medical costs of a customer to determine their premium.
 This model predicts medical costs of customers based on where they live, sex, age, bmi, number of children, and whether or not they smoke.
 
-Input data must be in the form of
+Input data must be in the form of:
+
 {
 	"age": Int,
 	"sex": String ("female" || "male"),
@@ -12,6 +13,7 @@ Input data must be in the form of
 	"smoker": String ("yes" || "no"),
 	"region": String ("northwest" || "southwest" || "northeast" || "southeast")
 }
+
 (This is checked with pydantic)
 
 Creating the model service:

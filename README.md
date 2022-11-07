@@ -32,6 +32,8 @@ To start the service type:
 
 	bentoml serve service.py:svc
 
+Model will be running on localhost:3000
+
 Alternatively to pipenv, run through docker by typing (might take some time):
 
 	docker build -t medical-cost .

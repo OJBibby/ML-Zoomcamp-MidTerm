@@ -6,6 +6,7 @@ This model predicts medical costs of customers based on where they live, sex, ag
 
 Input data must be in the form of:
 
+
 {
 
 	"age": Int,
@@ -20,6 +21,7 @@ Input data must be in the form of:
 
 	"region": String ("northwest" || "southwest" || "northeast" || "southeast")
 }
+
 
 (This is checked with pydantic)
 

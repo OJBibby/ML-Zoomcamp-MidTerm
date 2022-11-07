@@ -1,0 +1,6 @@
+The following commands were run to prep and send the model to the cloud:
+
+eb init -p docker -r eu-west-1 medical-cost 
+eb create medical-cost-env
+
+After this, predict-test.py was run to send data to the cloud for prediction.

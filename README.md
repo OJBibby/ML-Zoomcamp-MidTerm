@@ -55,4 +55,5 @@ Alternatively to pipenv, run through docker using my Dockerfile by typing (might
 	docker build -t medical-cost .
 	docker run -p 3000:3000 -it --rm medical-cost
 
-Images from successful hosting on the AWS elastic beanstalk cloud are in the folder "cloud_pics"
+Images from successful hosting on the AWS elastic beanstalk cloud are in the folder "cloud_pics".
+cloud_prep.txt shows the commands used to set the model up on the cloud.

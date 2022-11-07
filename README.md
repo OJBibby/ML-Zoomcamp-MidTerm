@@ -34,11 +34,6 @@ To start the service type:
 
 Model will be running on localhost:3000
 
-Alternatively to pipenv, run through docker by typing (might take some time):
-
-	docker build -t medical-cost .
-	docker run -p 3000:3000 -it --rm medical-cost
-
 To containerize via bentoml type (make sure docker is running):
 
 	bentoml build
@@ -48,5 +43,10 @@ To containerize via bentoml type (make sure docker is running):
 To then run through docker type (replace "image id" with id generated in last step):
 
 	docker run -it --rm -p 3000:3000 "image id" serve --production
+
+Alternatively to pipenv, run through docker using my Dockerfile by typing (might take some time):
+
+	docker build -t medical-cost .
+	docker run -p 3000:3000 -it --rm medical-cost
 
 Images from successful hosting on the AWS elastic beanstalk cloud are in the folder "cloud_pics"

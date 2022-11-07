@@ -7,7 +7,6 @@ This model predicts medical costs of customers based on where they live, sex, ag
 Input data must be in the form of:
 
 	{
-
 		"age": Int,
 
 		"sex": String ("female" || "male"),

@@ -6,22 +6,20 @@ This model predicts medical costs of customers based on where they live, sex, ag
 
 Input data must be in the form of:
 
+	{
 
-{
+		"age": Int,
 
-	"age": Int,
+		"sex": String ("female" || "male"),
 
-	"sex": String ("female" || "male"),
+		"bmi": Float,
 
-	"bmi": Float,
+		"children": Int,
 
-	"children": Int,
+		"smoker": String ("yes" || "no"),
 
-	"smoker": String ("yes" || "no"),
-
-	"region": String ("northwest" || "southwest" || "northeast" || "southeast")
-}
-
+		"region": String ("northwest" || "southwest" || "northeast" || "southeast")
+	}
 
 (This is checked with pydantic)
 

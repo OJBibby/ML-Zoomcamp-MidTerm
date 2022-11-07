@@ -1,3 +1,4 @@
+Dataset is included in the repository as insurance.csv
 dataset from: https://www.kaggle.com/datasets/mirichoi0218/insurance
 
 It is important for insurers to accurately predict the medical costs of a customer to determine their premium.

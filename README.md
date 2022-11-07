@@ -1,5 +1,5 @@
-Dataset is included in the repository as insurance.csv.
-dataset from: https://www.kaggle.com/datasets/mirichoi0218/insurance
+Dataset is included in the repository as insurance.csv
+Dataset from: https://www.kaggle.com/datasets/mirichoi0218/insurance
 
 It is important for insurers to accurately predict the medical costs of a customer to determine their premium.
 This model predicts medical costs of customers based on where they live, sex, age, bmi, number of children, and whether or not they smoke.

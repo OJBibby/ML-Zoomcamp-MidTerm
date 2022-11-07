@@ -8,15 +8,10 @@ Input data must be in the form of:
 
 	{
 		"age": Int,
-
 		"sex": String ("female" || "male"),
-
 		"bmi": Float,
-
 		"children": Int,
-
 		"smoker": String ("yes" || "no"),
-
 		"region": String ("northwest" || "southwest" || "northeast" || "southeast")
 	}
 

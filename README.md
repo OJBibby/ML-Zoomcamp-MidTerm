@@ -1,5 +1,6 @@
 Dataset is included in the repository as insurance.csv.
 Dataset from: https://www.kaggle.com/datasets/mirichoi0218/insurance.
+Dataset contains information on medical costs and factors that may contribute to medical costs.
 
 It is important for insurers to accurately predict the likely medical costs of a customer. This allows an insurer to set the premium for each customer in a way that allows the insurer to operate as a business (and make money!).
 This model predicts medical costs of customers based on where they live, sex, age, bmi, number of children, and whether or not they smoke. These predictions could be used to set the price of a customer's insurance plan.

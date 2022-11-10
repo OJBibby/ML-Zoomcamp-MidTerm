@@ -1,5 +1,5 @@
-Dataset is included in the repository as insurance.csv.
-Dataset from: https://www.kaggle.com/datasets/mirichoi0218/insurance. \n
+Dataset is included in the repository as insurance.csv.  
+Dataset from: https://www.kaggle.com/datasets/mirichoi0218/insurance.  
 Dataset contains information on medical costs and factors that may contribute to medical costs.
 
 It is important for insurers to accurately predict the likely medical costs of a customer. This allows an insurer to set the premium for each customer in a way that allows the insurer to operate as a business (and make money!).
